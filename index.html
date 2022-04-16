@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="cs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>cstays</title>
+</head>
+
+<body>
+    <section class="cstays">
+        <!--Navbar-->
+        <div>
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <div class="container">
+                    <a href="#" class="navbar-brand">CICILY STAYS</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+        <!--showcase-->
+        <section class="showcase">
+            <div class="container">
+                <div class="mx-12 mb-0 mt-0 welcome text-center">
+                    <section id="welcome-section" class="welcome-section">
+                        <h1 class="text-lg-center pt-2 fw-bolder">NICE PLACE TO STAY</h1>
+                        <h2 class="text-center pt-2 fs-3 fw-italic">We are located in Nairobi West in Nairobi</h2>
+                        <h3 class="text-center pt-2 fs-3 fw-italic">West Suites features city views, free wifi,private
+                            parking, located in Nairobi, 3.2km from Kenyatta International conference centre. It
+                            features a fully equipped kitchen, each unit also comes with satellite flat-screen tv, desk
+                            and a seating area with a sofa. There is a fully equipped private bathroom. A car rental
+                            service is available at the apartments.</h3>
+                        <a href="cs.html" class="btn btn-dark">Learn more</a>
+
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+
+    <!--Boxes-->
+    <section id="my projects" class="p-5 bg-dark project-tile">
+        <section class="studio" id="studio">
+            <div class="container">
+                <div class="col-md">
+                    <div class="card bg-white text-dark">
+                        <div class="card-body text-centre">
+                            <div class="title">
+                                <h2 class="text-dark text-center col-md-12">Studio Apartment</h2>
+                            </div>
+                            <!--studio-->
+
+                            <article class="studio">
+                                <div class="room-image" class="text-center">
+                                    <img src="https://a0.muscache.com/im/pictures/0990cf3b-d927-4291-b1cb-95ee2fb63ca6.jpg?aki_policy=x_large"
+                                        jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb"
+                                        alt="The Best Airbnb Nairobi Deals | AirDNA" data-noaft="1"
+                                        style="width: 100%; height: 300px; margin: 0px;">
+                                </div>
+                                <div class="studio-text">
+                                    <p class="rate">
+                                        <span>3500Ksh</span> Per Day
+                                    </p>
+
+
+                                </div>
+                                <div class="book">
+                                    <form class="book-form" onsubmit="return cstays()">
+                                        <div class="form-item">
+                                            <label for="adult" class="text-dark fw-bold">Adults</label>
+                                            <input type="number" min="1" value="1" id="adult">
+                                        </div>
+                                        <div class="form-item">
+                                            <label for="noofbookings" class="text-dark fw-bold">No of Bookings</label>
+                                            <input type='number' id='noofbookings' value=0 disabled>
+                                        </div>
+                                        <div class="form-item">
+                                            <input type='submit' class="btn btn-dark" id='bookstudio'
+                                                value='Book Studio room'>
+                                        </div>
+                                    </form>
+                                    <p id="studiobook" class="text-warning fw-bold"></p>
+                                </div>
+                            </article>
+
+                            <section class="onebedroom" id="onebedroom">
+                                <div class="title">
+                                    <h2 class="text-dark text-center col-md-12">One Bedroom Apartment</h2>
+                                </div>
+
+                                <!--one-bedroom-->
+                                <article class="one-bedroom">
+                                    <div class="room-image">
+                                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/287838810.jpg?k=b869661156dfa359496ea7cc86764d726ee6a82b0d6fe89c1cafef85fba69081&amp;o=&amp;hp=1"
+                                            jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb"
+                                            alt="WEST SUITES FURNISHED APARTMENTS, Nairobi, Kenya - Booking.com"
+                                            data-noaft="1" style="width: 100%; height: 300px; margin: 0px;">
+                                    </div>
+                                    <div class="onebedroom-text">
+                                        <p class="rate">
+                                            <span>5500Ksh</span> Per Day
+                                        </p>
+
+                                    </div>
+                                    <div class="book">
+                                        <form class="book-form" onsubmit="return cstays2()">
+                                            <div class="form-item">
+                                                <label for="adult" class="text-dark fw-bold">Adults</label>
+                                                <input type="number" min="1" value="1" id="adult">
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="noofbookings" class="text-dark fw-bold">No of
+                                                    Bookings</label>
+                                                <input type='number' id='noofbooks' value=0 disabled>
+                                            </div>
+                                            <div class="form-item">
+                                                <input type='submit' class="btn btn-dark" id='bookoneb'
+                                                    value='Book OneB room' />
+                                            </div>
+
+                                        </form>
+                                        <p id="roomoneb" class="text-warning fw-bold"></p>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-container ms-4">
+            <div class="contact mt-4 pb-3 p-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">FOLLOW US</h5>
+                <a href="#" target="_blank"><i class="bi bi-twitter pr-2 text-dark mx-1"></i>twitter</a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i>facebook</a>
+                <a href="#" target="_blank"><i class="bi bi-linkedin text-dark mx-1"></i>linkedin</a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i>instagram</a>
+                <a href="#"><i class="bi bi-github text-dark mx-1"></i>Github</a>
+            </div>
+
+            <div>
+                <div class="contact-item p-3">
+                    <span>
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </span>
+                    <span>
+                        Kisauni Rd, Nairobi West Suites Sherry Homes, address
+                    </span>
+                </div>
+                <div class="contact-item p-3">
+                    <span>
+                        <i class="bi bi-telephone-inbound-fill"></i>
+                    </span>
+                    <span>
+                        +254710355489
+                    </span>
+                </div>
+                <div class="contact-item p-3">
+                    <span>
+                        <i class="bi bi-envelope-fill"></i>
+                    </span>
+                    <span>
+                        cstays@gmail.com
+                    </span>
+                </div>
+            </div>
+
+            <footer class="p-3 text left position-relative">
+                <div class="container">
+                    <p class="lead">Coyright &copy;2022 Cicilystays</p>
+
+                    <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                        <i class="bi bi-arrow-up-circle h1"></i>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="csmain.js"></script>
+</body>
+
+</html>

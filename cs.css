@@ -1,0 +1,90 @@
+.cstays{
+    background-image:url(img/cstays4.jpg);
+    background-size :cover;
+    background-position :center;
+    height:90vh;
+    padding:25px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    background-repeat: no-repeat;
+}
+
+.welcome-section{
+    color:#ffee06fd
+}
+.padding-0{
+    padding-left:0;
+    padding-right: 0;
+}
+.title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 5px solid var(--dark-text);
+    width:235px;
+    margin: 15px 0;
+}
+.sec-width{
+    width:85vw;
+    margin:0 auto!important;
+}
+
+
+.book-form{
+    display:grid;
+}
+.form-item{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+@media(min-width:768px){
+    .book-form{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 24px
+    }
+}
+
+.studio{ 
+    margin:45px 0;
+    padding-bottom: 25px;
+    background: var(--dark);
+
+}
+.rate span{
+    font-size:40px;
+    font-weight: 900;
+    color:rgb(12, 12, 12)
+}
+.room-image{
+    overflow:hidden;
+}
+.room-image:hover img{
+    transform: scale(1.1);
+}
+
+@media(min-width:1370px){
+    .room-container{
+        flex-direction:column;
+    }
+}
+
+.footer{
+background-color:#ffc107;
+}
+
+.cstays1{
+    background-image:url(img/cstays3.jpg);
+    background-size :cover;
+    background-position :center;
+    height:90vh;
+    padding:25px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    background-repeat: no-repeat; 
+}
+.welcome-section1{
+    color:#f3d706
+}
